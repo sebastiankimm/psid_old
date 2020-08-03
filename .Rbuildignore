@@ -1,0 +1,12 @@
+\.Rproj\.user$
+\.DS_store
+psid.Rproj
+\.gitignore$
+\.git$
+^\.travis\.yml$
+readme.md$
+LICENSE.txt$
+cookies.txt$
+\.Rhistory$
+^.*\.Rproj$
+^\.Rproj\.user$

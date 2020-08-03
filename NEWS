@@ -1,0 +1,62 @@
+
+*********************
+* News in Version 1.6
+*********************
+
+* Deprecated function get.variable.names 
+
+
+
+*********************
+* News in Version 1.5
+*********************
+
+* Improve creation from text file example
+* Updates index to PSID version 2015
+* Automatically download wealth supplements if user requests years that contain a wealth supplement.
+
+
+
+
+*********************
+* News in Version 1.4
+*********************
+
+* Added ability to have NA values in the individual index
+  https://github.com/floswald/psidR/issues/4
+* Don't download anything if files are present.
+* Added a real world example
+* Illustrates how variables can be constructed from a text file.
+
+
+*********************
+* News in Version 1.3
+*********************
+
+* added unit tests
+* added travis CI
+* example dataset now created in a function. allows for
+  attrition now.
+* fixed bugs:
+  https://github.com/floswald/psidR/issues/2
+  https://github.com/floswald/psidR/issues/5
+  https://github.com/floswald/psidR/issues/8
+
+
+*********************
+* News in Version 1.2
+*********************
+
+* fixed bug in SAScii downloader. Dates were not adjusted for
+  2011 PSID data delivery. Thanks to @wmjones for reporting.
+  https://github.com/floswald/psidR/issues/1
+
+*********************
+* News in Version 1.1
+*********************
+
+* updated index file to latest PSID delivery 2011
+* accomodates mutliple index files in datadir, with a warning
+* improved verbose mode
+* fixed a bug from using J() inside a data.table
+* added a not run example to help file
