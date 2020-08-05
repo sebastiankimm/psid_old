@@ -1,4 +1,4 @@
-Package: psid_old
+Package: psidRold
 Type: Package
 Title: Build Panel Data Sets from PSID Raw Data
 Version: 1.8
